@@ -1,6 +1,5 @@
 
 
-````markdown
 <h1 align="center">👋 Hi, I'm Ayush Mishra</h1>
 
 <h3 align="center">
@@ -426,5 +425,4 @@ I have also written extensively about distributed systems, blockchain, Scala, Ak
 <p align="center">
 Building secure, high-performance systems from protocol layer to production infrastructure.
 </p>
-```
 
