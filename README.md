@@ -5,7 +5,7 @@ Lead Backend, Rust & Distributed Systems Engineer
 </h3>
 
 <p align="center">
-🦀 Rust • 🐍 Python • 🐹 Go • ⚡ Solana • 🔷 Solidity / EVM • 🏦 Daml / Canton • 💰 Digital Assets • 🧠 Applied AI
+🦀 Rust • 🐍 Python • 🐹 Go • ⚛️ Cosmos SDK • ⚡ Solana • 🔷 Solidity / EVM • 🏦 Daml / Canton • 💰 Digital Assets • 🧠 Applied AI
 </p>
 
 <p align="center">
@@ -34,7 +34,8 @@ My core engineering work spans:
 
 🦀 **Rust systems and protocol engineering**  
 🐍 **Python backend, automation and AI infrastructure**  
-🐹 **Go backend services**  
+🐹 **Go backend services and protocol engineering**  
+⚛️ **Cosmos SDK / CometBFT**  
 ⚡ **Solana / SVM / Anchor**  
 🔷 **Ethereum / EVM / Solidity**  
 🏦 **Daml / Canton and enterprise DLT**  
@@ -71,12 +72,15 @@ My current engineering work also extends into **Applied AI and AI Infrastructure
 ### ⚡ Blockchain & Protocol Engineering
 
 <p>
+<img src="https://img.shields.io/badge/Cosmos_SDK-2E3148?style=for-the-badge&logo=cosmos&logoColor=white" />
+<img src="https://img.shields.io/badge/CometBFT-5C4EE5?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
 <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
 <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
 <img src="https://img.shields.io/badge/Polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" />
 </p>
 
+`Cosmos SDK` `CometBFT` `CLOB` `Order Matching` `Deterministic State Machines`
 `Solana` `SVM` `Anchor` `SPL` `Token-2022` `PDAs` `CPI`
 `Ethereum` `EVM` `Base` `EIP-712` `Substrate` `Polkadot SDK`
 `Cumulus` `Move` `Cross Chain`
@@ -86,7 +90,7 @@ My current engineering work also extends into **Applied AI and AI Infrastructure
 `Daml` `Canton` `Canton Token Standard` `Hyperledger Fabric`
 `DeFi` `Lending` `Vaults` `Margin` `Collateral` `Liquidation`
 `Stablecoins` `Tokenization` `DvP` `Settlement` `AMM` `DEX`
-`Institutional Credit` `Oracle Valuation`
+`CLOB` `Trade Execution` `Order Matching` `Institutional Credit` `Oracle Valuation`
 
 ### ☁️ Data, Infrastructure & Observability
 
@@ -112,6 +116,37 @@ My current engineering work also extends into **Applied AI and AI Infrastructure
 ---
 
 # 🚀 Featured Engineering
+
+## ⚛️ Cosmos Orderbook Engine
+
+**Go • Cosmos SDK • CometBFT • CLOB • Matching Engine • Trade Execution • Layer-2 Batching**
+
+Built and developed a production-style decentralized exchange protocol centered on deterministic execution, high-performance order matching and exchange-grade financial accounting.
+
+### Highlights
+
+- On-chain Central Limit Order Book with multiple trading pairs
+- Deterministic price-time-priority matching engine
+- Limit and market orders with partial fills and cancellation
+- Efficient Cosmos SDK KV-store indexes for market, side, price and sequence
+- Deterministic fixed-point arithmetic with no floating-point financial calculations
+- Exchange-style available and locked balance accounting
+- Maker and taker fee calculation
+- Atomic trade execution and settlement coordination
+- Deterministic order IDs, sequencing and replay protection
+- Batched Layer-2-style execution environment with signed orders and sequencer-driven batches
+- Deterministic batch and exchange-state commitments
+- Cosmos SDK modules for orderbook, exchange, settlement and batch execution
+- CLI, gRPC and REST protocol interfaces
+- Go client SDK for order placement, cancellation, balances, trades and orderbook queries
+- Prometheus-compatible protocol and execution metrics
+- Property tests, invariant tests, fuzzing and deterministic replay tests
+- Benchmarks for matching latency, orderbook operations and 1,000 / 10,000-order batch execution
+- Local CometBFT multi-validator network support
+
+🔗 [View Repository](https://github.com/ayushmishra2005/cosmos-orderbook-engine)
+
+---
 
 ## 🦀 Rust Low-Latency Trading Lab
 
@@ -357,7 +392,7 @@ Permissioned B2B invoice-financing network with multi-organization workflows, pr
 
 | Company / Work | Engineering Focus |
 |---|---|
-| 🧠 **Current Applied AI & Open Source** | **Python, FastAPI, Rust, AI agents, LLM tool calling, structured APIs, PostgreSQL, OpenTelemetry, deterministic evaluation and AI infrastructure** |
+| 🧠 **Current Applied AI & Open Source** | **Python, FastAPI, Rust, Go, Cosmos SDK, CometBFT, AI agents, LLM tool calling, distributed systems, protocol engineering, structured APIs, PostgreSQL, OpenTelemetry, deterministic evaluation and AI infrastructure** |
 | ⚡ **Blueprint Finance / Glow Protocol** | Lead engineering across Rust, Solana, Anchor, Python-based backend and operational tooling, lending, vaults, collateral, liquidation, oracle valuation, Token-2022, PostgreSQL, protocol security and production operations |
 | 🌐 **Cere Network** | Lead engineering across Rust, Python, Solana, Anchor, Solidity/EVM, TypeScript/Node.js, backend APIs, payment infrastructure, decentralized data systems, AI/data-oriented integration work, AWS, ZKP initiatives and production operations |
 | ⭕ **Parity Technologies** | Rust, Substrate, Polkadot SDK, Cumulus, WebAssembly, libp2p, RocksDB, runtimes, cross-chain infrastructure and ecosystem engineering |
@@ -517,6 +552,8 @@ Blockchain infrastructure
 ### ⚡
 **Blockchain**
 
+Cosmos SDK  
+CometBFT  
 Solana  
 EVM  
 Polkadot  
@@ -531,6 +568,8 @@ Smart contracts
 **Digital Assets**
 
 DeFi  
+CLOBs  
+Trade execution  
 Tokenization  
 Daml / Canton  
 Settlement  
@@ -544,6 +583,7 @@ Institutional finance
 **AI & Backend**
 
 Python  
+Go  
 FastAPI  
 AI Agents  
 APIs  
@@ -574,7 +614,7 @@ AI Infrastructure
 ---
 
 <p align="center">
-<b>🦀 Rust • 🐍 Python • ⚡ Solana • 🔷 EVM • 🏦 Daml / Canton • 🌐 Distributed Systems • 💰 Digital Assets • 🧠 Applied AI</b>
+<b>🦀 Rust • 🐍 Python • 🐹 Go • ⚛️ Cosmos SDK • ⚡ Solana • 🔷 EVM • 🏦 Daml / Canton • 🌐 Distributed Systems • 💰 Digital Assets • 🧠 Applied AI</b>
 </p>
 
 <p align="center">
