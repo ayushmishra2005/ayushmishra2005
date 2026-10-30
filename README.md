@@ -1,15 +1,19 @@
 <h1 align="center">👋 Hi, I'm Ayush Kumar Mishra</h1>
 
 <h3 align="center">
-Lead Backend, Rust & Distributed Systems Engineer
+Lead Blockchain & Backend Engineer | Rust • Solana / Anchor • Daml / Canton
 </h3>
 
 <p align="center">
-🦀 Rust • 🐍 Python • 🐹 Go • ⚛️ Cosmos SDK • ⚡ Solana • 🔷 Solidity / EVM • 🏦 Daml / Canton • 💰 Digital Assets • 🧠 Applied AI
+🦀 Rust • ⚡ Solana / Anchor • 🏦 Daml / Canton • 🔷 Solidity / EVM • 💰 Digital Assets • 🐍 Python • 🐹 Go • ⚛️ Cosmos SDK • 🧠 Applied AI
 </p>
 
 <p align="center">
-Building secure production systems across distributed infrastructure, blockchain, financial platforms and AI-enabled backend systems.
+Building secure Solana DeFi protocols, Canton digital-asset settlement workflows and high-performance distributed backend systems.
+</p>
+
+<p align="center">
+  <strong>⚡ At Blueprint Finance / Glow Protocol, I worked on production Solana lending and vault infrastructure as protocol TVL grew from $7.07 million to $1.32 billion.</strong>
 </p>
 
 <p align="center">
@@ -28,17 +32,17 @@ Building secure production systems across distributed infrastructure, blockchain
 
 ## 👨‍💻 About Me
 
-I am a lead software engineer and technical architect with experience building production systems across **backend engineering, distributed systems, blockchain, digital assets and financial infrastructure**.
+I am a lead software engineer and technical architect specializing in **Rust, Solana / SVM / Anchor, distributed backend systems and digital assets**, with hands-on **Daml / Canton** work in privacy-aware tokenization and settlement. My experience spans production DeFi infrastructure, financial systems and applied AI.
 
 My core engineering work spans:
 
 🦀 **Rust systems and protocol engineering**  
+⚡ **Solana / SVM / Anchor: lending, vaults, collateral and security**  
+🏦 **Daml / Canton: tokenization, multi-party authorization and DvP settlement**  
+🔷 **Ethereum / EVM / Solidity**  
 🐍 **Python backend, automation and AI infrastructure**  
 🐹 **Go backend services and protocol engineering**  
 ⚛️ **Cosmos SDK / CometBFT**  
-⚡ **Solana / SVM / Anchor**  
-🔷 **Ethereum / EVM / Solidity**  
-🏦 **Daml / Canton and enterprise DLT**  
 💰 **DeFi, digital assets, payments and settlement**  
 🌐 **Distributed systems and backend platforms**  
 ⚙️ **Concurrency, reliability and high-performance systems**  
@@ -46,6 +50,8 @@ My core engineering work spans:
 🧠 **Applied AI, agent systems and AI infrastructure**
 
 I have worked across **Blueprint Finance, Cere Network, Parity Technologies, MXC / DataHighway and Knoldus** on lending and vault infrastructure, payments, blockchain runtimes, cross-chain systems, distributed backends, financial transaction processing and production operations.
+
+On **Solana**, my work includes lending and margin protocols, vault and liquidation safety, custody and accounting invariants, cross-chain authorization and live devnet validation. My **Daml / Canton project portfolio** includes atomic Treasury-versus-stablecoin DvP settlement, privacy-aware multi-party workflows and tokenized-asset AMMs.
 
 Python has been part of my engineering stack across backend services, operational tooling, automation, data-oriented integration work and AI-related engineering alongside Rust, Go and TypeScript.
 
@@ -72,22 +78,23 @@ My current engineering work also extends into **Applied AI and AI Infrastructure
 ### ⚡ Blockchain & Protocol Engineering
 
 <p>
+<img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
 <img src="https://img.shields.io/badge/Cosmos_SDK-2E3148?style=for-the-badge&logo=cosmos&logoColor=white" />
 <img src="https://img.shields.io/badge/CometBFT-5C4EE5?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
 <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" />
 <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
 <img src="https://img.shields.io/badge/Polkadot-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" />
 </p>
 
+`Solana` `SVM` `Anchor` `SPL` `Token-2022` `PDAs` `CPI` `Program Security`
 `Cosmos SDK` `CometBFT` `CLOB` `Order Matching` `Deterministic State Machines`
-`Solana` `SVM` `Anchor` `SPL` `Token-2022` `PDAs` `CPI`
 `Ethereum` `EVM` `Base` `EIP-712` `Substrate` `Polkadot SDK`
 `Cumulus` `Move` `Cross Chain`
 
 ### 🏦 Digital Assets, DLT & Financial Systems
 
-`Daml` `Canton` `Canton Token Standard` `Hyperledger Fabric`
+`Daml` `Canton` `Canton Token Standard` `Daml Script` `Canton Ledger API` `DvP`
+`Multi-Party Authorization` `Privacy-Aware Settlement` `Hyperledger Fabric`
 `DeFi` `Lending` `Vaults` `Margin` `Collateral` `Liquidation`
 `Stablecoins` `Tokenization` `DvP` `Settlement` `AMM` `DEX`
 `CLOB` `Trade Execution` `Order Matching` `Institutional Credit` `Oracle Valuation`
@@ -116,6 +123,51 @@ My current engineering work also extends into **Applied AI and AI Infrastructure
 ---
 
 # 🚀 Featured Engineering
+
+## 🌉 Solana EVM Cross-Chain Vault
+
+**Rust • Solana • Anchor • Solidity • EVM • Base • Proptest**
+
+Production-style asynchronous vault architecture spanning Solana and EVM.
+
+### Highlights
+
+- Cross-chain accounting
+- Deposits and redemptions
+- Epoch settlement
+- Claims
+- Emergency recovery
+- Exact rounding and dust accounting
+- Property-based testing
+- Cross-chain message encoding
+- Security invariants
+- ES256 / P-256-signed risk-approval verifier with mandate binding, authority checks and nonce replay protection
+- Live Solana devnet V2 authorization validation: 43 finalized transactions, including 16 expected security rejections
+
+🔗 [View Repository](https://github.com/ayushmishra2005/solana-evm-cross-chain-vault)
+
+---
+
+## 🏦 Canton Treasury DvP
+
+**Daml • Canton • Canton Token Standard • Digital Assets**
+
+Atomic Delivery-versus-Payment settlement of tokenized Treasury assets against stablecoins across independently governed Canton applications.
+
+### Highlights
+
+- Multi-party authorization
+- Holdings and allocations
+- Privacy-aware workflows
+- Atomic settlement
+- Asset reassignment
+- Multi-participant integration
+- Canton Ledger API
+- Daml Script and multi-participant settlement integration scenarios
+
+🔗 [View Repository](https://github.com/ayushmishra2005/canton-treasury-dvp)
+
+---
 
 ## ⚛️ Cosmos Orderbook Engine
 
@@ -170,28 +222,6 @@ A deterministic low-latency trading system built in Rust.
 
 ---
 
-## 🌉 Solana EVM Cross-Chain Vault
-
-**Rust • Solana • Anchor • Solidity • EVM • Base • Proptest**
-
-Production-style asynchronous vault architecture spanning Solana and EVM.
-
-### Highlights
-
-- Cross-chain accounting
-- Deposits and redemptions
-- Epoch settlement
-- Claims
-- Emergency recovery
-- Exact rounding and dust accounting
-- Property-based testing
-- Cross-chain message encoding
-- Security invariants
-
-🔗 [View Repository](https://github.com/ayushmishra2005/solana-evm-cross-chain-vault)
-
----
-
 ## ⚡ Solana Collateral Vault
 
 **Rust • Solana • Anchor • Tokio • PostgreSQL**
@@ -210,26 +240,6 @@ Collateral vault infrastructure for perpetual futures and financial workflows.
 - Docker deployment
 
 🔗 [View Repository](https://github.com/ayushmishra2005/solana-collateral-vault)
-
----
-
-## 🏦 Canton Treasury DvP
-
-**Daml • Canton • Canton Token Standard • Digital Assets**
-
-Atomic Delivery-versus-Payment settlement of tokenized Treasury assets against stablecoins across independently governed Canton applications.
-
-### Highlights
-
-- Multi-party authorization
-- Holdings and allocations
-- Privacy-aware workflows
-- Atomic settlement
-- Asset reassignment
-- Multi-participant integration
-- Canton Ledger API
-
-🔗 [View Repository](https://github.com/ayushmishra2005/canton-treasury-dvp)
 
 ---
 
@@ -393,7 +403,7 @@ Permissioned B2B invoice-financing network with multi-organization workflows, pr
 | Company / Work | Engineering Focus |
 |---|---|
 | 🧠 **Current Applied AI & Open Source** | **Python, FastAPI, Rust, Go, Cosmos SDK, CometBFT, AI agents, LLM tool calling, distributed systems, protocol engineering, structured APIs, PostgreSQL, OpenTelemetry, deterministic evaluation and AI infrastructure** |
-| ⚡ **Blueprint Finance / Glow Protocol** | Lead engineering across Rust, Solana, Anchor, Python-based backend and operational tooling, lending, vaults, collateral, liquidation, oracle valuation, Token-2022, PostgreSQL, protocol security and production operations |
+| ⚡ **Blueprint Finance / Glow Protocol** | Rust / Solana / Anchor engineering across lending, vaults, collateral, margin, liquidation, oracle valuation, protocol security and production operations; worked on production infrastructure as protocol TVL grew from **$7.07 million to $1.32 billion** |
 | 🌐 **Cere Network** | Lead engineering across Rust, Python, Solana, Anchor, Solidity/EVM, TypeScript/Node.js, backend APIs, payment infrastructure, decentralized data systems, AI/data-oriented integration work, AWS, ZKP initiatives and production operations |
 | ⭕ **Parity Technologies** | Rust, Substrate, Polkadot SDK, Cumulus, WebAssembly, libp2p, RocksDB, runtimes, cross-chain infrastructure and ecosystem engineering |
 | 🛰️ **MXC / DataHighway** | Rust, Substrate, parachain runtime engineering, Solidity/EVM, WebAssembly, governance, indexing, TypeScript/Node.js and CI/CD |
@@ -451,18 +461,10 @@ I have contributed across the **Rust, Solana, Polkadot, cross-chain and blockcha
 - [wasm-bindgen PR #2216](https://github.com/rustwasm/wasm-bindgen/pull/2216)
 - [ChainSafe Forest PR #900](https://github.com/ChainSafe/forest/pull/900)
 
-### ⚡ Solana Ecosystem
+### ⚡ Solana Ecosystem (open PRs)
 
-- [Anchor PR #3918](https://github.com/solana-foundation/anchor/pull/3918)
-- [Agave PR #7945](https://github.com/anza-xyz/agave/pull/7945)
-- [Solana Developer Tooling PR #408](https://github.com/solana-developers/program-examples/pull/408)
 - [Syndica Sig PR #1781](https://github.com/Syndica/sig/pull/1781)
 - [Syndica Sig PR #1782](https://github.com/Syndica/sig/pull/1782)
-
-### 🌉 Cross Chain
-
-- [Wormhole PR #4950](https://github.com/wormhole-foundation/wormhole/pull/4950)
-- [Wormhole PR #4951](https://github.com/wormhole-foundation/wormhole/pull/4951)
 
 ### ⭕ Polkadot & Substrate
 
@@ -474,7 +476,6 @@ I have contributed across the **Rust, Solana, Polkadot, cross-chain and blockcha
 - [bench-bot PR #41](https://github.com/paritytech/bench-bot/pull/41)
 - [polkadot-js/apps PR #5394](https://github.com/polkadot-js/apps/pull/5394)
 - [polkadot-js/apps PR #5602](https://github.com/polkadot-js/apps/pull/5602)
-- [Substrate Developer Hub PR #714](https://github.com/substrate-developer-hub/substrate-developer-hub.github.io/pull/714)
 
 ---
 
