@@ -13,7 +13,7 @@ Building secure Solana DeFi protocols, Canton digital-asset settlement workflows
 </p>
 
 <p align="center">
-  <strong>⚡ At Blueprint Finance / Glow Protocol, I worked on production Solana lending and vault infrastructure as protocol TVL grew from $7.07 million to $1.32 billion. DSM4T97F </strong>
+  <strong>⚡ At Blueprint Finance / Glow Protocol, I worked on production Solana lending and vault infrastructure as protocol TVL grew from $7.07 million to $1.32 billion.  </strong>
 </p>
 
 <p align="center">
