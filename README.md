@@ -1,7 +1,11 @@
 <h1 align="center">👋 Hi, I'm Ayush Kumar Mishra</h1>
 
+
+
+
 <h3 align="center">
 Lead Blockchain & Backend Engineer | Rust • Solana / Anchor • Daml / Canton
+  
 </h3>
 
 <p align="center">
@@ -17,6 +21,8 @@ Building secure Solana DeFi protocols, Canton digital-asset settlement workflows
 </p>
 
 <p align="center">
+
+
   <a href="https://www.linkedin.com/in/ayush-mishra-a2787b23/">
     <img src="https://img.shields.io/badge/LinkedIn-Ayush_Mishra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -27,6 +33,18 @@ Building secure Solana DeFi protocols, Canton digital-asset settlement workflows
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+
+
+<p align="center">
+  <a href="https://solutiongigs.in/certificate/SG-FDE-2026-QNJF835">
+    <img
+      src="https://img.shields.io/badge/SolutionGigs-Certified%20Forward%20Deployed%20Engineer-0F766E?style=for-the-badge&logo=checkmarx&logoColor=white"
+      alt="Certified Forward Deployed Engineer"
+    />
+  </a>
+</p>
+
 
 ---
 
