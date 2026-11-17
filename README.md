@@ -46,6 +46,24 @@ Building secure Solana DeFi protocols, Canton digital-asset settlement workflows
 </p>
 
 
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/Solana-Certified%20Builder-FFE45C?style=for-the-badge&logo=solana&logoColor=black"
+    alt="Certified Solana Builder"
+  />
+  <img
+    src="https://img.shields.io/badge/Solana-Certified%20Learner-D1D5DB?style=for-the-badge&logo=solana&logoColor=black"
+    alt="Certified Solana Learner"
+  />
+</p>
+
+<p align="center">
+  <sub>
+    HackQuest &amp; Solana Foundation MCM |
+    Issued November 2026
+  </sub>
+</p>
+
 ---
 
 ## 👨‍💻 About Me
