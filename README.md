@@ -1,11 +1,7 @@
 <h1 align="center">👋 Hi, I'm Ayush Kumar Mishra</h1>
 
-
-
-
 <h3 align="center">
-Lead Blockchain & Backend Engineer | Rust • Solana / Anchor • Daml / Canton
-  
+Principal / Lead Engineer | Rust & Solana Protocols | Forward-Deployed AI & Distributed Systems
 </h3>
 
 <p align="center">
@@ -13,15 +9,14 @@ Lead Blockchain & Backend Engineer | Rust • Solana / Anchor • Daml / Canton
 </p>
 
 <p align="center">
-Building secure Solana DeFi protocols, Canton digital-asset settlement workflows and high-performance distributed backend systems.
+Building secure Solana DeFi protocols, Canton digital-asset settlement workflows, and AI-enabled infrastructure for complex distributed systems.
 </p>
 
 <p align="center">
-  <strong>⚡ At Blueprint Finance / Glow Protocol, I worked on production Solana lending and vault infrastructure as protocol TVL grew from $7.07 million to $1.32 billion.  </strong>
+  <strong>⚡ Blueprint Finance / Glow Protocol: Rust/Solana lending and vault infrastructure as protocol TVL grew from $7.07 million to $1.32 billion.</strong>
 </p>
 
 <p align="center">
-
 
   <a href="https://www.linkedin.com/in/ayush-mishra-a2787b23/">
     <img src="https://img.shields.io/badge/LinkedIn-Ayush_Mishra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -36,33 +31,35 @@ Building secure Solana DeFi protocols, Canton digital-asset settlement workflows
 
 
 
-<p align="center">
-  <a href="https://solutiongigs.in/certificate/SG-FDE-2026-QNJF835">
-    <img
-      src="https://img.shields.io/badge/SolutionGigs-Certified%20Forward%20Deployed%20Engineer-0F766E?style=for-the-badge&logo=checkmarx&logoColor=white"
-      alt="Certified Forward Deployed Engineer"
-    />
-  </a>
-</p>
+---
 
+## 🏅 Professional Certifications
 
-<p align="center">
-  <img
+<p>
+ <img
     src="https://img.shields.io/badge/Solana-Certified%20Builder-FFE45C?style=for-the-badge&logo=solana&logoColor=black"
     alt="Certified Solana Builder"
   />
+</p>
+<p>
   <img
-    src="https://img.shields.io/badge/Solana-Certified%20Learner-D1D5DB?style=for-the-badge&logo=solana&logoColor=black"
-    alt="Certified Solana Learner"
+    src="https://img.shields.io/badge/Canton-Certified%20Application%20Developer-146B82?style=for-the-badge&logoColor=white"
+    alt="Certified Canton Application Developer"
   />
 </p>
-
-<p align="center">
-  <sub>
-    HackQuest &amp; Solana Foundation MCM |
-    Issued November 2026
-  </sub>
+<p>
+ <img
+    src="https://img.shields.io/badge/Apache%20Cassandra-Certified%20Developer-5A748B?style=for-the-badge&logo=apachecassandra&logoColor=white"
+    alt="Certified Developer on Apache Cassandra V2.1"
+  />
 </p>
+<p>
+ <img
+      src="https://img.shields.io/badge/SolutionGigs-Certified%20Forward%20Deployed%20Engineer-0F766E?style=for-the-badge&logo=checkmarx&logoColor=white"
+      alt="Certified Forward Deployed Engineer"
+    />
+</p>
+
 
 ---
 
@@ -85,7 +82,7 @@ My core engineering work spans:
 ☁️ **Cloud, Kubernetes and production infrastructure**  
 🧠 **Applied AI, agent systems and AI infrastructure**
 
-I have worked across **Blueprint Finance, Cere Network, Parity Technologies, MXC / DataHighway and Knoldus** on lending and vault infrastructure, payments, blockchain runtimes, cross-chain systems, distributed backends, financial transaction processing and production operations.
+My engineering experience spans **Blueprint Finance / Glow Protocol, Parity Technologies, and Knoldus**. Across these roles, I have delivered Solana lending and vault infrastructure, payment systems and smart contracts, Python/TypeScript backend APIs, Substrate/Polkadot runtimes, cross-chain systems, distributed backends, and production deployment and incident-response workflows.
 
 On **Solana**, my work includes lending and margin protocols, vault and liquidation safety, custody and accounting invariants, cross-chain authorization and live devnet validation. My **Daml / Canton project portfolio** includes atomic Treasury-versus-stablecoin DvP settlement, privacy-aware multi-party workflows and tokenized-asset AMMs.
 
@@ -181,6 +178,59 @@ Production-style asynchronous vault architecture spanning Solana and EVM.
 - Live Solana devnet V2 authorization validation: 43 finalized transactions, including 16 expected security rejections
 
 🔗 [View Repository](https://github.com/ayushmishra2005/solana-evm-cross-chain-vault)
+
+---
+
+## 🧠 ForwardOps
+
+**Python • FastAPI • Rust • PostgreSQL • OpenTelemetry • Kubernetes • AI**
+
+AI-powered forward-deployed operations and incident investigation platform for complex distributed systems.
+
+ForwardOps is designed to investigate operational failures across:
+
+- ⛓️ Blockchain transactions and state
+- 🗄️ PostgreSQL
+- 📜 Application logs
+- 🔭 OpenTelemetry traces
+- 📊 Metrics
+- ☸️ Kubernetes
+- 🚀 Deployments
+- 📚 Operational runbooks
+
+The platform combines a **Python orchestration and API layer** with performance-sensitive Rust components and controlled LLM tool calling.
+
+### Investigation model
+
+```text
+Operational Question
+        ↓
+Investigation Engine
+        ↓
+Typed Tool Selection
+        ↓
+┌─────────┬──────────┬──────────┬───────────┐
+│ Solana  │ Database │ Logs     │ Traces    │
+├─────────┼──────────┼──────────┼───────────┤
+│ Metrics │ Runtime  │ Deploys  │ Runbooks  │
+└─────────┴──────────┴──────────┴───────────┘
+        ↓
+Evidence Collection
+        ↓
+Cross-System Correlation
+        ↓
+Root Cause Hypothesis
+        ↓
+Evidence-Backed Finding
+        ↓
+Remediation Proposal
+        ↓
+Human Approval
+```
+
+The agent does not receive unrestricted production access. Read-only investigation and privileged actions are separated with explicit approval and audit boundaries.
+
+🔗 [View Repository](https://github.com/ayushmishra2005/ForwardOps)
 
 ---
 
@@ -299,59 +349,6 @@ A bounded AI-native protocol security system that combines agent reasoning with 
 
 ---
 
-## 🧠 ForwardOps
-
-**Python • FastAPI • Rust • PostgreSQL • OpenTelemetry • Kubernetes • AI**
-
-AI-powered forward-deployed operations and incident investigation platform for complex distributed systems.
-
-ForwardOps is designed to investigate operational failures across:
-
-- ⛓️ Blockchain transactions and state
-- 🗄️ PostgreSQL
-- 📜 Application logs
-- 🔭 OpenTelemetry traces
-- 📊 Metrics
-- ☸️ Kubernetes
-- 🚀 Deployments
-- 📚 Operational runbooks
-
-The platform combines a **Python orchestration and API layer** with performance-sensitive Rust components and controlled LLM tool calling.
-
-### Investigation model
-
-```text
-Operational Question
-        ↓
-Investigation Engine
-        ↓
-Typed Tool Selection
-        ↓
-┌─────────┬──────────┬──────────┬───────────┐
-│ Solana  │ Database │ Logs     │ Traces    │
-├─────────┼──────────┼──────────┼───────────┤
-│ Metrics │ Runtime  │ Deploys  │ Runbooks  │
-└─────────┴──────────┴──────────┴───────────┘
-        ↓
-Evidence Collection
-        ↓
-Cross-System Correlation
-        ↓
-Root Cause Hypothesis
-        ↓
-Evidence-Backed Finding
-        ↓
-Remediation Proposal
-        ↓
-Human Approval
-```
-
-The agent does not receive unrestricted production access. Read-only investigation and privileged actions are separated with explicit approval and audit boundaries.
-
-🔗 [View Repository](https://github.com/ayushmishra2005/ForwardOps)
-
----
-
 # 🏗️ More Engineering Projects
 
 ### ⚙️ Rust Durable Queue
@@ -439,35 +436,10 @@ Permissioned B2B invoice-financing network with multi-organization workflows, pr
 | Company / Work | Engineering Focus |
 |---|---|
 | 🧠 **Current Applied AI & Open Source** | **Python, FastAPI, Rust, Go, Cosmos SDK, CometBFT, AI agents, LLM tool calling, distributed systems, protocol engineering, structured APIs, PostgreSQL, OpenTelemetry, deterministic evaluation and AI infrastructure** |
-| ⚡ **Blueprint Finance / Glow Protocol** | Rust / Solana / Anchor engineering across lending, vaults, collateral, margin, liquidation, oracle valuation, protocol security and production operations; worked on production infrastructure as protocol TVL grew from **$7.07 million to $1.32 billion** |
-| 🌐 **Cere Network** | Lead engineering across Rust, Python, Solana, Anchor, Solidity/EVM, TypeScript/Node.js, backend APIs, payment infrastructure, decentralized data systems, AI/data-oriented integration work, AWS, ZKP initiatives and production operations |
-| ⭕ **Parity Technologies** | Rust, Substrate, Polkadot SDK, Cumulus, WebAssembly, libp2p, RocksDB, runtimes, cross-chain infrastructure and ecosystem engineering |
-| 🛰️ **MXC / DataHighway** | Rust, Substrate, parachain runtime engineering, Solidity/EVM, WebAssembly, governance, indexing, TypeScript/Node.js and CI/CD |
+| ⚡ **Blueprint Finance / Glow Protocol** | **Solana/DeFi:** Led Rust/Solana/Anchor lending and vault engineering across borrowing, margin, collateral, liquidation, oracle valuation, accounting invariants and security; contributed to protocol infrastructure as TVL grew from **$7.07 million to $1.32 billion**.<br>**Multi-chain/payments:** Delivered engineering across **Solana, EVM and Substrate/Polkadot**; developed payment infrastructure, smart contracts, Python/TypeScript backend APIs and decentralized data integrations.<br>**Production delivery:** Built forward-deployed integration, deployment, verification and upgrade tooling; supported audit remediation, AWS/Docker operations, testing, observability and incident response. |
+| ⭕ **Parity Technologies** | **Rust/Polkadot:** Worked on Substrate/Polkadot SDK runtime and pallet engineering, Cumulus, cross-chain developer infrastructure, WebAssembly, libp2p/P2P and RocksDB; supported developers, technical reviews and protocol evolution.<br>**Protocol/platform engineering:** Delivered Solidity/EVM integrations, SubQuery indexing and backend services; implemented governance, multisig, benchmarking and EIP-712 settlement flows; improved data access and supported node validation, runtime/parachain upgrades and release workflows. |
 | 🏗️ **Knoldus** | Distributed backend architecture, Scala/Akka, Java, Go, Node.js, Kafka, Cassandra, MongoDB, AWS, financial transaction processing and technical leadership |
 | 💻 **Earlier Engineering** | Java/J2EE, enterprise applications, integrations, relational databases, reporting platforms and client-facing delivery |
-
----
-
-# 🌐 Cere: Blockchain, Data & AI
-
-My work at Cere sat at the intersection of blockchain infrastructure, payments, decentralized data, backend engineering and AI-oriented data systems.
-
-Key areas included:
-
-- 🦀 Rust and Anchor engineering
-- 🐍 Python backend, automation and integration work
-- ⚡ Production Solana payment infrastructure
-- 🔷 Solidity / EVM smart contracts
-- 🌐 Backend APIs and wallet integrations
-- 🔐 RBAC and authorization
-- 💳 ERC-20 payment and revenue flows
-- 🧩 Substrate / Polkadot infrastructure
-- 🔏 ZKP / zk-SNARK initiatives
-- ☁️ AWS and Docker production operations
-- 📊 Decentralized data infrastructure
-- 🤖 AI and Web3 data integration use cases
-
-Cere's broader platform direction combined decentralized data infrastructure with data sovereignty, secure compute, AI workloads and agent-oriented systems.
 
 ---
 
